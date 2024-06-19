@@ -1,0 +1,32 @@
+By Pradumna Pokley
+
+Documentation:
+Importing pynput:
+ The pynput library allows us to monitor and control input devices.
+
+Logging Keystrokes: 
+The on_press function logs each key pressed to a specified log file. The on_release function can be used to stop the keylogger if needed.
+
+Writing to File: 
+The key pressed is logged into the keylog.txt file. Each key is written on a new line.
+
+Listener:
+ The Listener from pynput.keyboard is used to monitor key press and release events.
+
+Ethical Considerations:
+Permission: 
+Always get explicit permission from the owner of the computer before installing or running a keylogger.
+
+Legal Compliance: 
+Ensure that your usage of keyloggers complies with local laws and regulations.
+
+Transparency:
+ Be transparent about the purpose and usage of the keylogger to the person giving permission.
+
+Running the Keylogger:
+Save the script in a .py file.
+Run the script using a Python interpreter.
+The keystrokes will be logged into the keylog.txt file.
+
+Important Note:
+Keyloggers can be used for both legitimate and malicious purposes. Misuse of keyloggers can lead to serious legal consequences. Always ensure that you have appropriate permissions and are using them in an ethical manner.
